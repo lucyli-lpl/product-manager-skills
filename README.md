@@ -29,3 +29,7 @@ Use $design-low-friction-flows to redesign this failed-upload step. Show what re
 
 - [把「加个字段」拆成业务需求](examples/clarify-a-field-request.md)
 - [把测试记录改成一页阶段汇报](examples/turn-test-notes-into-a-brief.md)
+
+## License / 许可
+
+[MIT](LICENSE) © 2026 Lucy Li
