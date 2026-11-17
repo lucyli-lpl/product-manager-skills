@@ -12,8 +12,14 @@ description: "Turn test results, progress notes, or project outcomes into projec
 - Check metric names, scope, time range, and denominators. An "issues and feedback" count should be labeled as issues and feedback. Interpret QA test results and user feedback each by its own evidence. When samples, coverage, or definitions differ, give readers enough information to understand the limits of the comparison.
 - Put the most important chart or number where readers look first. Show priority through position, size, and white space, and use color to guide judgment. Let the single page, the spoken walkthrough, and the appendix each carry the amount of information that suits it.
 - For a personal achievement report, be clear about the work you led or contributed to, the verifiable outputs, and the results of this phase. Back them with quantities or changes that can be checked, and use wording that fits the stage while evidence is still being gathered.
+- Verify what both numbers represent before converting a shorthand figure such as “40/50” to a percentage. When the audience needs to act, state the decision or next action, its owner if known, and the condition for revisiting it.
 
 For example, a one-page test-phase update can set the context with the scope and overall results at the top, use one chart below to tell the main story, and add a few representative improvements. Different counting methods can be explained with a short note next to the chart.
+
+## Resources
+
+- Use the [copyable template](references/template.md) for structured deliverables. Keep the fields the current audience needs.
+- Read the [worked example](references/example.md) to see how the inputs lead to an output and how it handles missing evidence or exceptions.
 
 ## 中文版
 
@@ -24,5 +30,11 @@ For example, a one-page test-phase update can set the context with the scope and
 - 核对指标名称、范围、时间和分母。问题与反馈数应明确写成问题与反馈数。QA 测试结果和用户反馈按各自证据解释。样本、覆盖范围或口径不一致时，给读者足够信息理解比较边界。
 - 把最重要的图或数字摆在读者先看到的位置。主次由位置、大小和留白体现，颜色用来引导判断。单页、口述和附录各承担适合它们的信息量。
 - 如果是个人成果汇报，说清本人主导或参与的工作、可查验的产出和阶段结果。用可核实的量或变化支撑，证据仍在收集时用对应的阶段措辞。
+- 像「40/50」这样的简写，先核实分子和分母各代表什么，再决定能否换算为百分比。需要听众行动时，写明要决定的事项或下一步、已知负责人，以及何时重新判断。
 
 例如，一页测试阶段更新可用上方的范围与整体结果建立背景，下方用一张图讲主要表现，配少量代表性改进。不同统计口径可在图旁用短注说明。
+
+## 配套资料
+
+- 需要正式交付稿时，按任务使用[可复制模板](references/template.md)，保留当前读者用得到的栏目。
+- 对产出粒度或取舍不确定时，查看[完整案例](references/example.md)，了解原始输入如何变成可用的结果。
