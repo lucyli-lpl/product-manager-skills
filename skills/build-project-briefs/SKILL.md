@@ -1,7 +1,21 @@
 ---
 name: build-project-briefs
-description: 从测试、进度或成果材料提炼项目汇报，适用于领导汇报、一页摘要、阶段复盘、指标和图表信息取舍。
+description: "Turn test results, progress notes, or project outcomes into project briefs: leadership updates, one-page summaries, phase retrospectives, and personal achievement reports, deciding which metrics, charts, and details to keep. Works in English and Chinese. 中文：从测试、进度或成果材料提炼项目汇报，适用于领导汇报、一页摘要、阶段复盘、指标和图表信息取舍。"
 ---
+
+> **Language:** Respond in the user's language. If the user writes in Chinese, reply in Chinese; otherwise reply in English. 请使用用户的语言回复。
+
+# Project Briefs and What to Include
+
+- Work backward from what the audience needs to judge, for example where the project stands, what changed, and whether the next phase is ready to start. Build each page around one or two questions, give the core conclusion and evidence the most space, and shrink method notes as needed, move them to the notes, or cover them verbally.
+- Distill changes that matter to the business from the raw records, for example which processes can now be completed, or which frequent interruptions have been fixed. Rank metrics by how important they are to the conclusion and how available the data is.
+- Check metric names, scope, time range, and denominators. An "issues and feedback" count should be labeled as issues and feedback. Interpret QA test results and user feedback each by its own evidence. When samples, coverage, or definitions differ, give readers enough information to understand the limits of the comparison.
+- Put the most important chart or number where readers look first. Show priority through position, size, and white space, and use color to guide judgment. Let the single page, the spoken walkthrough, and the appendix each carry the amount of information that suits it.
+- For a personal achievement report, be clear about the work you led or contributed to, the verifiable outputs, and the results of this phase. Back them with quantities or changes that can be checked, and use wording that fits the stage while evidence is still being gathered.
+
+For example, a one-page test-phase update can set the context with the scope and overall results at the top, use one chart below to tell the main story, and add a few representative improvements. Different counting methods can be explained with a short note next to the chart.
+
+## 中文版
 
 # 项目汇报与信息取舍
 

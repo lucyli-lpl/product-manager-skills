@@ -1,7 +1,20 @@
 ---
 name: clarify-requirements
-description: 梳理或评审模糊产品需求，分析业务场景、规则冲突和范围取舍。适用于从业务反馈、错例或功能提议形成可执行需求。
+description: "Clarify or review vague product requirements: trace them back to the real business task, resolve conflicting rules and signals, weigh scope trade-offs, and turn business feedback, bad cases, or feature proposals into actionable requirements with defaults, exceptions, and acceptance criteria. Works in English and Chinese. 中文：梳理或评审模糊产品需求，分析业务场景、规则冲突和范围取舍。适用于从业务反馈、错例或功能提议形成可执行需求。"
 ---
+
+> **Language:** Respond in the user's language. If the user writes in Chinese, reply in Chinese; otherwise reply in English. 请使用用户的语言回复。
+
+# Clarify Requirements
+
+- Translate the requested feature back into the underlying business task. Find out who runs into what problem in which situation, how they get it done today, who uses the result, and what they use it for. Read existing materials and real examples first, and only ask questions whose answers would change the solution.
+- Start with a default handling that covers the main scenario, then use real positive and negative examples to find the exceptions. When signals conflict, spell out under which conditions each source can be trusted, which conflicts are worth flagging, and how to proceed when it still can't be determined. A single bad case can reveal a gap in the rules, but how far a rule applies is decided by evidence.
+- Compare reusing an existing flow, adding a local rule, and building a new capability. Put frequency, the cost of a wrong decision, the extra steps users take, and development and maintenance cost into one trade-off. For low-frequency tasks that are cheap to recover from, evaluate the existing entry points first.
+- Give the current recommendation, the conditions it applies under, the explicit exceptions, and observable acceptance results. Write confirmed business definitions in directly; for points still awaiting a decision, note exactly which rule they would change. Reversible assumptions can be used in a draft first, as long as they are marked.
+
+For example, when the business asks for a new category field, first check whether it is used for downstream search, reporting, or real-time validation. A field used for search can be collected later than one used for real-time validation, and it only needs to be triggered in the scenarios that actually require the category.
+
+## 中文版
 
 # 需求澄清
 

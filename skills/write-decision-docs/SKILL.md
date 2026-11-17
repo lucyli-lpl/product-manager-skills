@@ -1,7 +1,21 @@
 ---
 name: write-decision-docs
-description: 编写或改写供评审、跨团队对齐、开发交接或验收使用的 PRD、决策表、规则说明和项目文档。
+description: "Write or rewrite PRDs, decision tables, rule specs, and project docs built for decisions: business review, cross-team alignment, engineering handoff, or acceptance testing. Organizes content by what each reader must confirm, build, or test. Works in English and Chinese. 中文：编写或改写供评审、跨团队对齐、开发交接或验收使用的 PRD、决策表、规则说明和项目文档。"
 ---
+
+> **Language:** Respond in the user's language. If the user writes in Chinese, reply in Chinese; otherwise reply in English. 请使用用户的语言回复。
+
+# Decision-Oriented Docs
+
+- First decide what the reader needs to do after reading. For business review, highlight the scenarios, definitions, and choices to be confirmed. For engineering handoff, state the trigger conditions, actions, resulting state or data, and exception paths. For acceptance materials, give the test scenarios, observable results, and the scope of this round.
+- Organize by the actual workflow. If two kinds of questions need to be confirmed by different people, or rest on different grounds, split them into separate sections or tables by decision topic. Give similar scenarios their own row only when the handling, evidence, or acceptance result differs.
+- Use a short table for the same kind of choice, keeping only the columns the reader actually needs. Prefer giving one concrete example with its expected result. When order matters, use a short flow or one continuous paragraph.
+- Make clear what is a confirmed rule, what is the current recommendation, and what is still to be confirmed. For open items, state the choice to be made and its impact, and cite the source when a definition already exists. When updating an existing doc, write the decision back into the relevant sections and add a change-log entry as needed.
+- Before delivering, read it once from the target reader's point of view. Readers should quickly find what they need to confirm, build, or test, and know how to judge when it's done.
+
+For example, a table for the business to check scope can keep just "Scenario, Applicable rule, Example, Open question." Field-level details for implementation and testing can go in the corresponding delivery materials.
+
+## 中文版
 
 # 决策型文档
 
