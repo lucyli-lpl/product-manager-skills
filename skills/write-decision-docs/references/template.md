@@ -8,6 +8,12 @@
 | --- | --- | --- |
 | [一个能暴露差异的例子 / An example that distinguishes the options] | [推荐做法与依据 / Proposal and rationale] | [明确选项及影响 / Explicit options and consequences] |
 
+## 待决策 / Open decisions
+
+| 待确认问题 / Question | 选项与影响 / Options and consequences | 确认人 / Decision owner | 确认前的处理 / Interim handling |
+| --- | --- | --- | --- |
+| [要谁拍板的一句话问题 / One-sentence question to decide] | [每个选项会改变哪条规则 / Which rule each option changes] | [负责人或待定 / Owner or TBD] | [确认前先怎么做 / What happens until decided] |
+
 ## 开发交接 / Implementation handoff
 
 | 规则 ID / Rule ID | 触发与前置条件 / Trigger and prerequisites | 系统与用户动作 / System and user actions | 结果、异常与恢复 / Outcome, failure, recovery |

@@ -1,5 +1,7 @@
 # 完整案例 / Worked example
 
+> Fictional scenario / 虚构场景
+
 **原始材料。** 旧版上月上传通过 90/100，本月 76/80。旧版包含移动端和桌面端，本月只测桌面端。试用收到 11 条反馈，其中 6 条提到失败后要重新填写。新版修复后用 5 条桌面失败用例验证，5 条都恢复了已填内容。移动端补测仍待安排。目标听众需要决定是否扩大试点。
 
 **一页稿。**
@@ -28,4 +30,4 @@
 >
 > **Decision requested** — Hold the current pilot size. Have QA retest mobile upload and failure recovery, then revisit expansion.
 
-**Speaker notes.** Six of 11 feedback entries flagged re-entry. Use feedback as a source of issues. Device coverage changed, so a percentage-point difference would misrepresent the evidence. Keep detailed case coverage in the appendix.
+**Speaker notes.** Six of 11 feedback entries flagged re-entry. Treat feedback as leads, not a measured rate. Device coverage changed, so a percentage-point difference would misrepresent the evidence. Keep detailed case coverage in the appendix.

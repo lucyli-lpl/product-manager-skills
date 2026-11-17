@@ -19,7 +19,7 @@ For example, if only one type of application needs an archive tag filled in, col
 ## Resources
 
 - Use the [copyable template](references/template.md) for structured deliverables. Keep the fields the current audience needs.
-- Read the [worked example](references/example.md) to see how the inputs lead to an output and how it handles missing evidence or exceptions.
+- When unsure how detailed the output should be or what to leave out, read the [worked example](references/example.md) to see how the inputs lead to an output and how it handles missing evidence or exceptions.
 
 ## 中文版
 
